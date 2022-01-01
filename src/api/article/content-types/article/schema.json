@@ -19,7 +19,8 @@
       "type": "richtext"
     },
     "date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "category": {
       "type": "relation",
