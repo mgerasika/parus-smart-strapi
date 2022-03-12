@@ -9,4 +9,4 @@ docker stop $container
 docker image rm $image
 docker rm $container
 docker build -t $image -f Dockerfile . --build-arg REACT_APP_VERSION=$version
-docker run --env PORT=80 -d --network host -p $port:80 --name $container $image
+docker run --env PORT=3137 -d -p $port:3137 --env-file=.env --env DATABASE_HOST=host.docker.internal --name $container $image

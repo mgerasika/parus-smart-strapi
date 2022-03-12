@@ -1,7 +1,6 @@
 version: "3"
 services:
   strapi:
-    container_name: strapi
     image: strapi/strapi
     command: sh -c "yarn install && yarn build && yarn start"
     restart: unless-stopped
