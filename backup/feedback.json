@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": 2,
+    "attributes": {
+      "Name": "Опитування",
+      "Content": "[Хочу стати волонтером](https://docs.google.com/forms/d/e/1FAIpQLSdRspzdJMAlgTj2bYxX5LNCUR96_Vr6ilpwwL8hVCpSWU-0sw/viewform)\\\n[Хочу стати членом правління](https://docs.google.com/forms/d/e/1FAIpQLSd6t89rHJiwhAEjcNcVz_kS2P6CBZvI-hzWkrfILk6rDhR0Nw/viewform)\\\n[Пропозиції щодо покращення сервісу у 1-му будинку ЖК \"Парус Смарт\"](https://docs.google.com/forms/d/e/1FAIpQLSfv-EB7LMD1QycmGgNB7xJIsJuw7KIlrDFmZKm__Duj_SWfGA/viewform)\\\n[Опитування мешканців 1-го будинку ЖК \"Парус Смарт\" від ІГ](https://docs.google.com/forms/d/e/1FAIpQLSe3dGZAVMPzSerfyA3HO9AHve-Zvhoyby4eVe8uMBSfkI6grw/viewform)",
+      "Date": "2021-12-31",
+      "createdAt": "2022-01-02T07:06:59.948Z",
+      "updatedAt": "2022-01-02T07:07:01.322Z",
+      "publishedAt": "2022-01-02T07:07:01.317Z"
+    }
+  },
+  "meta": {}
+}

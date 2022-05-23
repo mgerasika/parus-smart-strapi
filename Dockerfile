@@ -8,9 +8,10 @@ COPY . /app/
 WORKDIR /app
 RUN yarn
 RUN yarn build
-
-# Second Stage : Setup command to run your app using lightweight node image
-FROM node:14
-WORKDIR /app
-COPY --from=builder /app ./
 CMD ["yarn", "start"]
+
+# # Second Stage : Setup command to run your app using lightweight node image
+# FROM node:14
+# WORKDIR /app
+# COPY --from=builder /app ./
+# CMD ["yarn", "start"]
